@@ -1,0 +1,11 @@
+- name: Home /
+  link: /xwin/index.html
+
+- name: Getting started /
+  link: /xwin/getting_started.html
+
+- name: Examples /
+  link: /xwin/examples.html
+
+- name: Functions /
+  link: /xwin/functions.html

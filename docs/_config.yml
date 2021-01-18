@@ -1,0 +1,7 @@
+# Site settings
+
+title: XWin
+description:
+baseurl: /xwin
+url: https://harbour.pl/xwin
+github_url: https://github.com/rjopek/xwin/tree/master/docs
