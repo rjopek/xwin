@@ -6,19 +6,19 @@
 
 Installing **XWin** for more info see.
 
-   >   * [getting started](docs/getting_started.md)
+   * [getting started](docs/getting_started.md)
 
 ### Examples
 
 The best way to learn programming is by practicing examples.
 
-   >   * [Examples](docs/examples.md)
+   * [Examples](docs/examples.md)
 
 ### Functions
 
 Functions Reference Manual.
 
-   >   * [Functions /](functions.md)
+   * [Functions /](functions.md)
 
 ### License
 
