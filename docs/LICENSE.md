@@ -1,6 +1,11 @@
-MIT License
+---
+layout: default
+title: MIT License
+---
 
-Copyright (c) 2021 Rafał Jopek
+# MIT License
+
+Copyright (c) 2020-2021 Rafał Jopek
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

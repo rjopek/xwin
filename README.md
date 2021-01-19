@@ -4,8 +4,22 @@
 
 ### Getting Started
 
-Installing **XWin** for more info see [getting started](docs/getting_started.md).
+Installing **XWin** for more info see.
+
+   >   * [getting started](docs/getting_started.md)
+
+### Examples
+
+The best way to learn programming is by practicing examples.
+
+   >   * [Examples](docs/examples.md)
+
+### Functions
+
+Functions Reference Manual.
+
+   >   * [Functions /](functions.md)
 
 ### License
 
-[![License](http://img.shields.io/:License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![License](http://img.shields.io/:License-MIT-blue.svg?style=flat-square)](docs/LICENSE.md)

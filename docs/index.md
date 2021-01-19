@@ -67,6 +67,6 @@ int main( int argc, char* argv[] )
 
 ## License
 
-[![License](http://img.shields.io/:License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![License](http://img.shields.io/:License-MIT-blue.svg?style=flat-square)](LICENSE.html)
 
 > &copy; 2020-2021 Rafał Jopek
