@@ -33,7 +33,7 @@ zypper install libx11-devel
 
 ## Mac OS X
 
-Using MacPorts, the port is called 'xorg-libX11', so you can just type:
+Using [MacPorts](https://www.macports.org/), the port is called 'xorg-libX11', so you can just type:
 
 {% highlight c %}
 sudo port install xorg-libX11
