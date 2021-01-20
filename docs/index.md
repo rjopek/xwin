@@ -5,11 +5,11 @@ title: Home
 
 # XWin
 
-![XWin](assets/img/logo.svg "Logo")
+![XWin](assets/img/logo.svg)
 
-**XWin** is a module providing bindings for the [libX11](https://www.x.org/ ) graphics library. This tutorial is intended for people who want to start to program with the libX11 library. Keep in mind that libX11, isn't what most programmers wanting to write graphic applications are looking for. They should use a much higher level GUI toolkit like [GTK](https://www.gtk.org/), [Motif](https://motif.ics.com/) etc. However, we need to start somewhere. More than this, knowing how things work down below is never a bad idea. The project has an educational nature the main goal is to expand knowledge in the field of creating the aplications with the usege of library libX11.
+**XWin** is a module providing bindings for the [libX11](https://www.x.org/ ) graphics library. This tutorial is intended for people who want to start to program with the libX11 library. Keep in mind that libX11, isn't what most programmers wanting to write graphic applications are looking for. They should use a much higher level GUI toolkit like [GTK](https://www.gtk.org/), [Motif](https://motif.ics.com/) etc. However, we need to start somewhere. More than this, knowing how things work down below is never a bad idea. The project has an educational nature the main goal is to expand knowledge in the field of creating the aplications with the usege of library libX11 and C language.
 
-## Example code example-00.c
+## Example code
 
 {% highlight C %}
 /*
@@ -63,10 +63,6 @@ int main( int argc, char* argv[] )
 }
 {% endhighlight %}
 
-![XWin](assets/img/example-00.png "example-00")
+![XWin](assets/img/example-00.png)
 
-## License
-
-[![License](http://img.shields.io/:License-MIT-blue.svg?style=flat-square)](LICENSE.html)
-
-> &copy; 2020-2021 Rafał Jopek
+> [License MIT](LICENSE.html) &copy; 2020-2021 Rafał Jopek
