@@ -6,19 +6,19 @@
 
 Installing **XWin** for more info see:
 
-   * [Getting started](docs/getting_started.md)
+   * [Getting started](https://harbour.pl/xwin/getting_started.html)
 
 ## Examples
 
 The best way to learn programming is by practicing examples.
 
-   * [Examples](docs/examples.md)
+   * [Examples](https://harbour.pl/xwin/examples.html)
 
 ## Functions
 
 Functions Reference Manual.
 
-   * [Functions](docs/functions.md)
+   * [Functions](https://harbour.pl/xwin/functions.html)
 
 ### License
 
