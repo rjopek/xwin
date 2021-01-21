@@ -5,7 +5,7 @@ title: Functions
 
 # Functions
 
-> * [x] [Abs()]({{ site.baseurl }}/functions/abs.html)
+> * [x] [Abs()](functions/abs.html)
 > * [ ] [Background()](functions/background.html)
 > * [ ] [Circle()](functions/circle.html)
 > * [ ] [Clear()](functions/clear.html)
