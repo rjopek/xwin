@@ -6,4 +6,6 @@ docs/.jekyll-metadata
 docs/vendor
 
 # XWin
+docs/functions/*.md
 *.exe
+
