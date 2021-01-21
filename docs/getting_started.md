@@ -13,21 +13,21 @@ Cygwin - a collection of free and open source tools that provide a Unix-like env
 
 For Debian and Debian derivatives including Ubuntu:
 
-{% highlight c %}
+``` c
 sudo apt-get install -y libx11-dev
-{% endhighlight %}
+```
 
 For Fedora:
 
-{% highlight c %}
+``` c
 sudo yum install libx11-devel
-{% endhighlight %}
+```
 
 For openSUSE:
 
-{% highlight c %}
+``` c
 zypper install libx11-devel
-{% endhighlight %}
+```
 
 > Note: -y flag means to assume yes and silently install, without asking you questions in most cases.
 
@@ -35,20 +35,20 @@ zypper install libx11-devel
 
 Using [MacPorts](https://www.macports.org/), the port is called 'xorg-libX11', so you can just type:
 
-{% highlight c %}
+``` c
 sudo port install xorg-libX11
-{% endhighlight %}
+```
 
 And to upgrade to newer versions once installed:
 
-{% highlight c %}
+``` c
 sudo port upgrade xorg-libX11
-{% endhighlight %}
+```
 
 ## XWin live source repository
 
 Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):
 
-{% highlight c %}
+``` c
 git clone --depth 10 https://github.com/rjopek/xwin.git
-{% endhighlight %}
+```
