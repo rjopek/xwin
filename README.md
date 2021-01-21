@@ -18,7 +18,7 @@ The best way to learn programming is by practicing examples.
 
 Functions Reference Manual.
 
-   * [Functions](functions.md)
+   * [Functions](docs/functions.md)
 
 ### License
 

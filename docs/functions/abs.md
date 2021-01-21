@@ -26,6 +26,7 @@ Abs() is a numeric function that determines the magnitude of a numeric value ind
 As a formalism, Abs( arg ) is defined in terms of its argument, `arg`, as follows: if( arg >= 0 ), Abs( arg ) returns `arg`; otherwise, Abs( arg ) returns the negation of `arg`.
 
 **Examples**
+
 These examples show typical results from Abs():
 
 ``` c
@@ -45,5 +46,3 @@ Abs( 150 - 100 ) = 50
 Abs( -3 ) = 3
 Abs( 0 ) = 0
 ```
-
-
