@@ -11,7 +11,7 @@ title: Home
 
 ## Example code
 
-``` c
+{% highlight c linenos %}
 /*
  * -mwindows a Windows app is built which doesn't produce a console window.
  * gcc example-00.c xwin.c -o example-00 -lX11 -lm
@@ -61,7 +61,7 @@ int main( int argc, char* argv[] )
 
    return 0;
 }
-```
+{% endhighlight %}
 
 ![XWin](assets/img/example-00.png)
 

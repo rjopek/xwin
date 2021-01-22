@@ -5,9 +5,9 @@ title: Clear
 
 # Clear()
 
-``` c
-
-```
+{% highlight c %}
+int Clear( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: Clear
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

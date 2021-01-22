@@ -5,11 +5,19 @@ title: GetClip
 
 # GetClip()
 
-``` c
-
-```
+{% highlight c %}
+int GetClip( int top, int left, int bottom, int right );
+{% endhighlight %}
 
 **Arguments**
+
+`int top`
+
+`int left`
+
+`int bottom`
+
+`int right`
 
 **Returns**
 
@@ -17,12 +25,12 @@ title: GetClip
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

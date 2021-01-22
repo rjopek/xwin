@@ -5,24 +5,30 @@ title: XWinChr
 
 # XWinChr()
 
-``` c
-
-```
+{% highlight c %}
+const char* XWinChr( TYPE_CHR type, const char* );
+{% endhighlight %}
 
 **Arguments**
 
+`TYPE_CHR type`
+
+`const char*`
+
 **Returns**
+
+const char*
 
 **Description**
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

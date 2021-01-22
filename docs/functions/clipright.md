@@ -5,9 +5,9 @@ title: ClipRight
 
 # ClipRight()
 
-``` c
-
-```
+{% highlight c %}
+int ClipRight( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: ClipRight
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

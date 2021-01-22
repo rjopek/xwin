@@ -5,9 +5,9 @@ title: WindowY
 
 # WindowY()
 
-``` c
-
-```
+{% highlight c %}
+int WindowY( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: WindowY
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

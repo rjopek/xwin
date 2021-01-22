@@ -5,11 +5,21 @@ title: FilledEllipse
 
 # FilledEllipse()
 
-``` c
-
-```
+{% highlight c %}
+int FilledEllipse( int y, int x, int rady, int radx, int color );
+{% endhighlight %}
 
 **Arguments**
+
+`int y`
+
+`int x`
+
+`int rady`
+
+`int radx`
+
+`int color`
 
 **Returns**
 
@@ -17,12 +27,12 @@ title: FilledEllipse
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

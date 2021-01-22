@@ -5,9 +5,9 @@ title: ClipBottom
 
 # ClipBottom()
 
-``` c
-
-```
+{% highlight c %}
+int ClipBottom( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: ClipBottom
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

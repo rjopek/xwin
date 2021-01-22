@@ -5,9 +5,9 @@ title: WindowX
 
 # WindowX()
 
-``` c
-
-```
+{% highlight c %}
+int WindowX( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: WindowX
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

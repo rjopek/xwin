@@ -5,11 +5,19 @@ title: FilledCircle
 
 # FilledCircle()
 
-``` c
-
-```
+{% highlight c %}
+int FilledCircle( int y, int x, int radius, int color );
+{% endhighlight %}
 
 **Arguments**
+
+`int y`
+
+`int x`
+
+`int radius`
+
+`int color`
 
 **Returns**
 
@@ -17,12 +25,12 @@ title: FilledCircle
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

@@ -5,11 +5,19 @@ title: Circle
 
 # Circle()
 
-``` c
-
-```
+{% highlight c %}
+int Circle( int y, int x, int radius, int color );
+{% endhighlight %}
 
 **Arguments**
+
+`int y`
+
+`int x`
+
+`int radius`
+
+`int color`
 
 **Returns**
 
@@ -17,12 +25,12 @@ title: Circle
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

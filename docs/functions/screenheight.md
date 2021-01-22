@@ -5,9 +5,9 @@ title: ScreenHeight
 
 # ScreenHeight()
 
-``` c
-
-```
+{% highlight c %}
+int ScreenHeight( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: ScreenHeight
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

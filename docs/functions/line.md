@@ -5,11 +5,21 @@ title: Line
 
 # Line()
 
-``` c
-
-```
+{% highlight c %}
+int Line( int top, int left, int bottom, int right, int color );
+{% endhighlight %}
 
 **Arguments**
+
+`int top`
+
+`int left`
+
+`int bottom`
+
+`int right`
+
+`int color`
 
 **Returns**
 
@@ -17,12 +27,12 @@ title: Line
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

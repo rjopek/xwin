@@ -5,9 +5,9 @@ title: WindowHeight
 
 # WindowHeight()
 
-``` c
-
-```
+{% highlight c %}
+int WindowHeight( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: WindowHeight
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

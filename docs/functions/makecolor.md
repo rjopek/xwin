@@ -5,11 +5,17 @@ title: MakeColor
 
 # MakeColor()
 
-``` c
-
-```
+{% highlight c %}
+int MakeColor( int red, int green, int blue );
+{% endhighlight %}
 
 **Arguments**
+
+`int red`
+
+`int green`
+
+`int blue`
 
 **Returns**
 
@@ -17,12 +23,12 @@ title: MakeColor
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

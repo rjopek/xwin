@@ -5,11 +5,19 @@ title: SetClip
 
 # SetClip()
 
-``` c
-
-```
+{% highlight c %}
+int SetClip( int top, int left, int bottom, int right );
+{% endhighlight %}
 
 **Arguments**
+
+`int top`
+
+`int left`
+
+`int bottom`
+
+`int right`
 
 **Returns**
 
@@ -17,12 +25,12 @@ title: SetClip
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

@@ -774,13 +774,14 @@
 
 .markdown-body table td,
 .markdown-body table th {
-  padding: 6px 13px;
-  border: 1px solid #dfe2e5;
+  padding: 6px 6px;
+  border: 1px solid #eaeaea; /* */
 }
 
 .markdown-body table tr {
-  background-color: #fff;
+  background-color: #464646; /* */
   border-top: 1px solid #c6cbd1;
+
 }
 
 .markdown-body table tr:nth-child(2n) {
@@ -791,8 +792,7 @@
   max-width: 100%;
   box-sizing: initial;
   background-color: #fff9e5;
-  /* dodano */
-  padding: 10px;
+  padding: 10px;   /* dodano */
 }
 
 .markdown-body img[align="right"] {
@@ -841,6 +841,7 @@
   font-size: 85%;
   line-height: 1.45;
   background-color: #323232; /* zmieniono background-color: #f6f8fa; */
+  color: #eaeaea;            /* dodano */
   border-radius: 7px;
 }
 
@@ -854,6 +855,7 @@
   word-wrap: normal;
   background-color: initial;
   border: 0;
+  font-size: 16px; /* dodano */
 }
 
 .markdown-body .commit-tease-sha {

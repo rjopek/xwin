@@ -5,9 +5,9 @@ title: XWinClose
 
 # XWinClose()
 
-``` c
-
-```
+{% highlight c %}
+void XWinClose( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: XWinClose
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

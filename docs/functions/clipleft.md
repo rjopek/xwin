@@ -5,9 +5,9 @@ title: ClipLeft
 
 # ClipLeft()
 
-``` c
-
-```
+{% highlight c %}
+int ClipLeft( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: ClipLeft
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

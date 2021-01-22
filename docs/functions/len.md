@@ -5,11 +5,13 @@ title: Len
 
 # Len()
 
-``` c
-
-```
+{% highlight c %}
+int Len( n );
+{% endhighlight %}
 
 **Arguments**
+
+`n`
 
 **Returns**
 
@@ -17,12 +19,12 @@ title: Len
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

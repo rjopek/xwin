@@ -5,11 +5,21 @@ title: Rect
 
 # Rect()
 
-``` c
-
-```
+{% highlight c %}
+int Rect( int top, int left, int bottom, int right, int color );
+{% endhighlight %}
 
 **Arguments**
+
+`int top`
+
+`int left`
+
+`int bottom`
+
+`int right`
+
+`int color`
 
 **Returns**
 
@@ -17,12 +27,12 @@ title: Rect
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

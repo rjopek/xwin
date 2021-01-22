@@ -5,9 +5,9 @@ title: MousePosY
 
 # MousePosY()
 
-``` c
-
-```
+{% highlight c %}
+int MousePosY( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: MousePosY
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

@@ -5,11 +5,17 @@ title: PutPixel
 
 # PutPixel()
 
-``` c
-
-```
+{% highlight c %}
+int PutPixel( int y, int x, int color );
+{% endhighlight %}
 
 **Arguments**
+
+`int y`
+
+`int x`
+
+`int color`
 
 **Returns**
 
@@ -17,12 +23,12 @@ title: PutPixel
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

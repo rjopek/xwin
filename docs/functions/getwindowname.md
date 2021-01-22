@@ -5,9 +5,9 @@ title: GetWindowName
 
 # GetWindowName()
 
-``` c
-
-```
+{% highlight c %}
+const char* GetWindowName( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: GetWindowName
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

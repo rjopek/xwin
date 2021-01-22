@@ -5,11 +5,13 @@ title: Min
 
 # Min()
 
-``` c
-
-```
+{% highlight c %}
+Min( n1, n2 );
+{% endhighlight %}
 
 **Arguments**
+
+`n1` and `n2`
 
 **Returns**
 
@@ -17,12 +19,12 @@ title: Min
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

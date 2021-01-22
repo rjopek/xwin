@@ -5,11 +5,15 @@ title: XWinInit
 
 # XWinInit()
 
-``` c
-
-```
+{% highlight c %}
+void XWinInit( int argc, char* argv[] );
+{% endhighlight %}
 
 **Arguments**
+
+`int argc`
+
+`char* argv[]`
 
 **Returns**
 
@@ -17,12 +21,12 @@ title: XWinInit
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

@@ -5,11 +5,13 @@ title: SetCursor
 
 # SetCursor()
 
-``` c
-
-```
+{% highlight c %}
+int SetCursor( int shape );
+{% endhighlight %}
 
 **Arguments**
+
+`int shape`
 
 **Returns**
 
@@ -17,12 +19,12 @@ title: SetCursor
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

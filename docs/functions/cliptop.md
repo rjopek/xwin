@@ -5,9 +5,9 @@ title: ClipTop
 
 # ClipTop()
 
-``` c
-
-```
+{% highlight c %}
+int ClipTop( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: ClipTop
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

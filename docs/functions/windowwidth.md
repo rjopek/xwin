@@ -5,9 +5,9 @@ title: WindowWidth
 
 # WindowWidth()
 
-``` c
-
-```
+{% highlight c %}
+int WindowWidth( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: WindowWidth
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

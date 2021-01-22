@@ -5,11 +5,15 @@ title: GetPixel
 
 # GetPixel()
 
-``` c
-
-```
+{% highlight c %}
+int GetPixel( int y, int x );
+{% endhighlight %}
 
 **Arguments**
+
+`int y`
+
+`int x`
 
 **Returns**
 
@@ -17,12 +21,12 @@ title: GetPixel
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

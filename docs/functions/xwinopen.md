@@ -5,11 +5,15 @@ title: XWinOpen
 
 # XWinOpen()
 
-``` c
-
-```
+{% highlight c %}
+void XWinOpen( unsigned int width, unsigned int height, const char* window_name );
+{% endhighlight %}
 
 **Arguments**
+
+`unsigned int width`
+`unsigned int height`
+`const char* window_name`
 
 **Returns**
 
@@ -17,12 +21,12 @@ title: XWinOpen
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

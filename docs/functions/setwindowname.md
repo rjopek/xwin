@@ -5,11 +5,13 @@ title: SetWindowName
 
 # SetWindowName()
 
-``` c
-
-```
+{% highlight c %}
+const char* SetWindowName( const char* name );
+{% endhighlight %}
 
 **Arguments**
+
+`const char* name`
 
 **Returns**
 
@@ -17,12 +19,12 @@ title: SetWindowName
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

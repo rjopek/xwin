@@ -5,9 +5,9 @@ title: ScreenWidth
 
 # ScreenWidth()
 
-``` c
-
-```
+{% highlight c %}
+int ScreenWidth( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: ScreenWidth
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

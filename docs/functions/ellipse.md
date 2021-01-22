@@ -5,11 +5,21 @@ title: Ellipse
 
 # Ellipse()
 
-``` c
-
-```
+{% highlight c %}
+int Ellipse( int y, int x, int rady, int radx, int color );
+{% endhighlight %}
 
 **Arguments**
+
+`int y`
+
+`int x`
+
+`int rady`
+
+`int radx`
+
+`int color`
 
 **Returns**
 
@@ -17,12 +27,12 @@ title: Ellipse
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}

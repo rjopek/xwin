@@ -5,9 +5,9 @@ title: XWinInkey
 
 # XWinInkey()
 
-``` c
-
-```
+{% highlight c %}
+int  XWinInkey( void );
+{% endhighlight %}
 
 **Arguments**
 
@@ -17,12 +17,12 @@ title: XWinInkey
 
 **Examples**
 
-``` c
+{% highlight c linenos %}
 
-```
+{% endhighlight %}
 
 Output:
 
-```
+{% highlight terminal %}
 
-```
+{% endhighlight %}
