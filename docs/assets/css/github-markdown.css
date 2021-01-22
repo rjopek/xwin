@@ -775,12 +775,12 @@
 .markdown-body table td,
 .markdown-body table th {
   padding: 6px 6px;
-  border: 1px solid #eaeaea; /* */
+  border: 1px solid 	#0f785b;  /* */
 }
 
 .markdown-body table tr {
   background-color: #464646; /* */
-  border-top: 1px solid #c6cbd1;
+  /* border-top: 1px solid #c6cbd1; */
 
 }
 
@@ -841,7 +841,7 @@
   font-size: 85%;
   line-height: 1.45;
   background-color: #323232; /* zmieniono background-color: #f6f8fa; */
-  color: #eaeaea;            /* dodano */
+  color: #0f785b;            /* dodano */
   border-radius: 7px;
 }
 
