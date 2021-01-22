@@ -25,12 +25,12 @@ int main( int argc, char* argv[] )
    bool condition = true;
    int height = 0;
    int width = 0;
-   int y, x, i;
+   int y, x, i, n = 45, radius = 100;
    int key;
 
    XWinInit( argc, argv );
 
-   XWinOpen( 800, 600, "Example graphics program - example-00.c" );
+   XWinOpen( 800, 600, "Overlapping circles grid - example-00.c" );
 
    while( condition )
    {
@@ -39,11 +39,12 @@ int main( int argc, char* argv[] )
          height = WindowHeight();
          width  = WindowWidth();
 
-         for( i = 1; i < 45; i++ )
+         for( i = 0; i < n ; i++ )
          {
-            y = cos( i ) * 100 + height / 2;
-            x = sin( i ) * 100 + width / 2;
-            Circle( y, x, 100, 0xffc800 );
+            y = cos( M_PI + i * 2 * M_PI / n ) * radius + height / 2;
+            x = sin( i * 2 * M_PI / n ) * radius + width / 2;
+
+            Circle( y, x, radius, 0x0f785b );
          }
       }
 

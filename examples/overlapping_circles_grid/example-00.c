@@ -5,6 +5,7 @@
  *
  * -mwindows a Windows app is built which doesn't produce a console window.
  * gcc example-00.c xwin.c -o example-00 -lX11 -lm
+ * ./example-00 12
  *
  */
 
@@ -15,8 +16,17 @@ int main( int argc, char* argv[] )
    bool condition = true;
    int height = 0;
    int width = 0;
-   int y, x, i;
+   int y, x, i, n, radius = 100;
    int key;
+
+   if ( argc < 2 )
+   {
+      n = 45;
+   }
+   else
+   {
+      n = atoi( argv[ 1 ] );
+   }
 
    XWinInit( argc, argv );
 
@@ -27,13 +37,14 @@ int main( int argc, char* argv[] )
       if( height != WindowHeight() || width != WindowWidth() )
       {
          height = WindowHeight();
-         width  = WindowWidth();
+         width = WindowWidth();
 
-         for( i = 1; i < 45; i++ )
+         for( i = 0; i < n; i++ )
          {
-            y = cos( i ) * 100 + height / 2;
-            x = sin( i ) * 100 + width / 2;
-            Circle( y, x, 100, 0xffc800 );
+            y = cos( M_PI + i * 2 * M_PI / n ) * radius + height / 2;
+            x = sin( i * 2 * M_PI / n ) * radius + width / 2;
+
+            Circle( y, x, radius, 0x0f785b );
          }
       }
 
