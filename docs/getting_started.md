@@ -7,7 +7,7 @@ title: Getting Started
 
 ## MS-Windows
 
-**Xming** is the leading X Window System Server for Microsoft Windows®. It is fully featured, lean, fast, simple to install and because it is standalone native Windows, easily made portable (not needing a machine-specific installation or access to the Windows registry). [Xming X Server for Windows](https://sourceforge.net/projects/xming/files/Xming/6.9.0.31/)
+**Xming** is the leading X Window System Server for Microsoft Windows®. It is fully featured, lean, fast, simple to install and because it is standalone native Windows, easily made portable (not needing a machine-specific installation or access to the Windows registry). [**Xming X Server for Windows**](https://sourceforge.net/projects/xming/files/Xming/6.9.0.31/)
 
 
 **Cygwin** - a collection of free and open source tools that provide a Unix-like environment functionality to Windows-based programs, and a POSIX library for Windows. Cygwin consists of a Unix system call emulation library, cygwin1.dll, together with a vast set of GNU and other free software applications organized into a large number of optional packages. Among these packages are high quality compilers and other software development tools, an X11 server, a complete X11 development toolkit, and much more, including everything needed to compile and use **XWin** library under MS-Windows. The project has an easy-to-use installation program. For more info see [**Installing Cygwin/X**](https://x.cygwin.com/docs/ug/cygwin-x-ug.html).

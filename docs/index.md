@@ -13,8 +13,7 @@ title: Home
 
 {% highlight c linenos %}
 /*
- * -mwindows a Windows app is built which doesn't produce a console window.
- * gcc example-00.c xwin.c -o example-00 -lX11 -lm
+ * gcc example-00.c xwin.c -o example-00 -lX11 -lm -mwindows
  *
  */
 
