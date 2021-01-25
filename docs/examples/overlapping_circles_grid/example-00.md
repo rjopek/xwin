@@ -5,8 +5,6 @@ title: example-00
 
 # example-01.c
 
-Example overlapping round circle figures. An overlapping circles grid is a geometric pattern of repeating, overlapping circles of an equal radius in two-dimensional space.
-
 {% highlight c linenos %}
 /*
  * XWin library: Overlapping circles grid - example-00.c
@@ -74,4 +72,4 @@ int main( int argc, char* argv[] )
 }
 {% endhighlight %}
 
-![XWin](../assets/img/overlapping_circles_grid/example-00.png)
+![XWin](../../assets/img/overlapping_circles_grid/example-00.png)
