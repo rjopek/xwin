@@ -13,8 +13,7 @@ title: Home
 
 {% highlight c linenos %}
 /*
- * gcc example-00.c xwin.c -o example-00 -lX11 -lm -mwindows
- *
+ * gcc example-00.c xwin.c -o example-00 -lX11
  */
 
 #include "xwin.h"
