@@ -7,7 +7,7 @@ title: Functions
 
 > * [x] [Abs()](functions/abs.html)
 > * [ ] [Background()](functions/background.html)
-> * [ ] [BackgroundHex()](backgroundhex.html)
+> * [ ] [BackgroundHex()](functions/backgroundhex.html)
 > * [ ] [Circle()](functions/circle.html)
 > * [ ] [Clear()](functions/clear.html)
 > * [ ] [ClipBottom()](functions/clipbottom.html)
