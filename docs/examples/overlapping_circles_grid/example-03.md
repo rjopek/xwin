@@ -3,7 +3,7 @@ layout: default
 title: example-03
 ---
 
-# example-02.c
+# example-03.c
 
 {% highlight c linenos %}
 /*
