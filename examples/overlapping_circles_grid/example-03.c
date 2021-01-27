@@ -1,18 +1,10 @@
----
-layout: default
-title: example-00
----
-
-# example-01.c
-
-{% highlight c linenos %}
 /*
- * XWin library: Overlapping circles grid - example-00.c
+ * XWin library: Overlapping circles grid - example-03.c
  *
  * Copyright 2020-2021 Rafał Jopek ( rafaljopek at hotmail com )
  *
- * gcc example-00.c xwin.c -o example-00 -lX11
- * ./example-00 12
+ * gcc example-03.c xwin.c -o example-03 -lX11
+ * ./example-03
  *
  */
 
@@ -23,7 +15,8 @@ int main( int argc, char* argv[] )
    bool condition = true;
    int height = 0;
    int width = 0;
-   int y, x, i, n, radius = 100;
+   int i, n;
+   int y, x, rady = 150, radx = 150;
    int key;
 
    if ( argc < 2 )
@@ -37,7 +30,7 @@ int main( int argc, char* argv[] )
 
    XWinInit( argc, argv );
 
-   XWinOpen( 800, 600, "Overlapping circles grid - example-00.c" );
+   XWinOpen( 800, 800, "Overlapping circles grid - example-03.c" );
 
    while( condition )
    {
@@ -48,10 +41,10 @@ int main( int argc, char* argv[] )
 
          for( i = 0; i < n; i++ )
          {
-            y = cos( M_PI + i * 2 * M_PI / n ) * radius + height / 2;
-            x = sin( i * 2 * M_PI / n ) * radius + width / 2;
+            y = cos( M_PI + i * 2 * M_PI / n ) * rady + height / 2;
+            x = sin( i * 2 * M_PI / n ) * radx + width / 2;
 
-            Circle( y, x, radius, 0x0f785b );
+            Ellipse( y, x, height / 4, width / 4, 0x00ff00 );
          }
       }
 
@@ -69,6 +62,3 @@ int main( int argc, char* argv[] )
 
    return 0;
 }
-{% endhighlight %}
-
-![XWin](../../assets/img/overlapping_circles_grid/example-00.png)

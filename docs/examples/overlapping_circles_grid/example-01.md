@@ -11,8 +11,7 @@ title: example-01
  *
  * Copyright 2020-2021 Rafał Jopek ( rafaljopek at hotmail com )
  *
- * -mwindows a Windows app is built which doesn't produce a console window.
- * gcc example-01.c xwin.c -o example-01 -lX11 -lm
+ * gcc example-01.c xwin.c -o example-01 -lX11
  *
  */
 

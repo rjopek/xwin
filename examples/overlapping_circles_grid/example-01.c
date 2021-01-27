@@ -3,8 +3,7 @@
  *
  * Copyright 2020-2021 Rafał Jopek ( rafaljopek at hotmail com )
  *
- * -mwindows a Windows app is built which doesn't produce a console window.
- * gcc example-01.c xwin.c -o example-01 -lX11 -lm
+ * gcc example-01.c xwin.c -o example-01 -lX11
  *
  */
 
@@ -15,7 +14,8 @@ int main( int argc, char* argv[] )
    bool condition = true;
    int height = 0;
    int width = 0;
-   int y, x, i, n, radius = 150;
+   int i, n;
+   int y, x, radius = 150;
    int j, top, left;
    int key;
 
