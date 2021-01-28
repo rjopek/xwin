@@ -3,7 +3,7 @@ layout: default
 title: example-00
 ---
 
-# example-01.c
+# example-00.c
 
 {% highlight c linenos %}
 /*
@@ -69,6 +69,7 @@ int main( int argc, char* argv[] )
 
    return 0;
 }
+
 {% endhighlight %}
 
 ![XWin](../../assets/img/overlapping_circles_grid/example-00.png)

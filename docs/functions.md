@@ -10,6 +10,7 @@ title: Functions
 > * [ ] [BackgroundHex()](functions/backgroundhex.html)
 > * [ ] [Circle()](functions/circle.html)
 > * [ ] [Clear()](functions/clear.html)
+> * [ ] [ClearArea](functions/cleararea.html)
 > * [ ] [ClipBottom()](functions/clipbottom.html)
 > * [ ] [ClipLeft()](functions/clipleft.html)
 > * [ ] [ClipRight()](functions/clipright.html)

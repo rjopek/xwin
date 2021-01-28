@@ -42,7 +42,7 @@ int main( int argc, char* argv[] )
          for( i = 0; i < n; i++ )
          {
             y = cos( M_PI + i * 2 * M_PI / n ) * radius + height / 2;
-            x = sin( i * 2 * M_PI / n ) * radius + width / 2;
+            x = sin(        i * 2 * M_PI / n ) * radius + width / 2;
 
             Circle( y, x, radius, 0x0f785b );
          }
