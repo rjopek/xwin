@@ -23,7 +23,8 @@ int main( int argc, char* argv[] )
    bool condition = true;
    int height = 0;
    int width = 0;
-   int y, x, i, n, radius = 100;
+   int i, n;
+   int y, x, radius = 100;
    int key;
 
    if ( argc < 2 )
@@ -49,7 +50,7 @@ int main( int argc, char* argv[] )
          for( i = 0; i < n; i++ )
          {
             y = cos( M_PI + i * 2 * M_PI / n ) * radius + height / 2;
-            x = sin( i * 2 * M_PI / n ) * radius + width / 2;
+            x = sin(        i * 2 * M_PI / n ) * radius + width / 2;
 
             Circle( y, x, radius, 0x0f785b );
          }

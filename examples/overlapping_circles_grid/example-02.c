@@ -14,7 +14,7 @@ int main( int argc, char* argv[] )
    bool condition = true;
    int height = 0;
    int width = 0;
-   int y, x, radius = 100, color;
+   int y, x, radius = 100;
    int key;
 
    XWinInit( argc, argv );
