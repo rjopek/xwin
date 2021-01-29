@@ -1,9 +1,17 @@
+---
+layout: default
+title: example-00
+---
+
+# example-00.c
+
+{% highlight c linenos %}
 /*
- * XWin library: Overlapping circles grid - example-04.c
+ * XWin library: Moving circles - example-00.c
  *
  * Copyright 2020-2021 Rafał Jopek ( rafaljopek at hotmail com )
  *
- * gcc example-04.c xwin.c -o example-04 -lX11
+ * gcc example-00.c xwin.c -o example-00 -lX11
  *
  */
 
@@ -30,7 +38,7 @@ int main( int argc, char* argv[] )
 
    XWinInit( argc, argv );
 
-   XWinOpen( 800, 600, "Overlapping circles grid - example-04.c" );
+   XWinOpen( 800, 600, "Moving circles - example-00.c" );
 
    srand( time( NULL ) );
 
@@ -90,3 +98,7 @@ int main( int argc, char* argv[] )
 
    return 0;
 }
+
+{% endhighlight %}
+
+![XWin](../../assets/img/moving_circles/example-00.png)

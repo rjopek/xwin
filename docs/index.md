@@ -14,6 +14,7 @@ title: Home
 {% highlight c linenos %}
 /*
  * gcc example-00.c xwin.c -o example-00 -lX11
+ *
  */
 
 #include "xwin.h"
@@ -23,7 +24,8 @@ int main( int argc, char* argv[] )
    bool condition = true;
    int height = 0;
    int width = 0;
-   int y, x, i, n = 45, radius = 100;
+   int i, n = 45;
+   int y, x, radius = 100;
    int key;
 
    XWinInit( argc, argv );
@@ -40,7 +42,7 @@ int main( int argc, char* argv[] )
          for( i = 0; i < n ; i++ )
          {
             y = cos( M_PI + i * 2 * M_PI / n ) * radius + height / 2;
-            x = sin( i * 2 * M_PI / n ) * radius + width / 2;
+            x = sin(        i * 2 * M_PI / n ) * radius + width / 2;
 
             Circle( y, x, radius, 0x0f785b );
          }
@@ -60,6 +62,7 @@ int main( int argc, char* argv[] )
 
    return 0;
 }
+
 {% endhighlight %}
 
 ![XWin](assets/img/example-00.png)
