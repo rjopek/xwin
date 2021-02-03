@@ -19,6 +19,6 @@ title: Examples
 > * [example-01.c](examples/overlapping_circles_grid/example-01.html)
 > * [example-02.c](examples/overlapping_circles_grid/example-02.html)
 > * [example-03.c](examples/overlapping_circles_grid/example-03.html)
-> * [example-04.c](examples/overlapping_circles_grid/example-04.html)
-> * [example-05.c](examples/overlapping_circles_grid/example-05.html)
+> * [~~example-04.c~~](examples/overlapping_circles_grid/example-04.html)
+> * [~~example-05.c~~](examples/overlapping_circles_grid/example-05.html)
 
