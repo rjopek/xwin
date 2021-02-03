@@ -27,6 +27,7 @@ title: Functions
 > * [ ] [Line()](functions/line.html)
 > * [ ] [MakeColor()](functions/makecolor.html)
 > * [x] [Max()](functions/max.html)
+> * [ ] [MilliSeconds()](functions/milliseconds.html)
 > * [ ] [Min()](functions/min.html)
 > * [ ] [MousePosX()](functions/mouseposx.html)
 > * [ ] [MousePosY()](functions/mouseposy.html)

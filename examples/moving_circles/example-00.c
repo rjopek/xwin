@@ -17,7 +17,6 @@ int main( int argc, char* argv[] )
    int width = 0;
    int i, n;
    int y, x, radius = 100;
-   int key;
 
    if ( argc < 2 )
    {
