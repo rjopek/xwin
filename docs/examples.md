@@ -9,6 +9,10 @@ title: Examples
 
 > * [example-00.c](examples/moving_circles/example-00.html)
 
+### Moving points
+
+> * [example-00.c](examples/moving_points/example-00.html)
+
 ### Overlapping circles grid:
 
 > * [example-00.c](examples/overlapping_circles_grid/example-00.html)
