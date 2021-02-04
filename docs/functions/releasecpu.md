@@ -6,10 +6,12 @@ title: ReleaseCPU
 # ReleaseCPU()
 
 {% highlight c %}
-void ReleaseCPU( void );
+void ReleaseCPU( long microseconds );
 {% endhighlight %}
 
 **Arguments**
+
+`long microseconds`
 
 **Returns**
 
