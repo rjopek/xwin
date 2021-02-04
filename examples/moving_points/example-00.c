@@ -25,7 +25,7 @@ int main( int argc, char* argv[] )
 
    srand( time( NULL ) );
 
-   direction = udlr[ rand() / ( ( RAND_MAX + 1u ) / 4 ) ];
+   direction = udlr[ RandomInt( 0, 3 ) ];
 
    y = 300;
    x = 400;
@@ -59,24 +59,24 @@ int main( int argc, char* argv[] )
          break;
       }
 
-      if( MilliSeconds() - milliseconds > ( 100 + rand() / ( ( RAND_MAX + 1u ) / 1000 ) ) )
+      if( MilliSeconds() - milliseconds > RandomInt( 100, 1000 ) )
       {
          switch( direction )
          {
          case 'u':
-            direction = udlr[ 2 + rand() / ( ( RAND_MAX + 1u ) / 2 ) ];
+            direction = udlr[ RandomInt( 2, 3 ) ];
             break;
 
          case 'l':
-            direction = udlr[ rand() / ( ( RAND_MAX + 1u ) / 2 ) ];
+            direction = udlr[ RandomInt( 0, 1 ) ];
             break;
 
          case 'd':
-            direction = udlr[ 2 + rand() / ( ( RAND_MAX + 1u ) / 2 ) ];
+            direction = udlr[ RandomInt( 2, 3 ) ];
             break;
 
          case 'r':
-            direction = udlr[ rand() / ( ( RAND_MAX + 1u ) / 2 ) ];
+            direction = udlr[ RandomInt( 0, 1 ) ];
             break;
          }
 
