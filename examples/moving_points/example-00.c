@@ -27,8 +27,6 @@ int main( int argc, char* argv[] )
 
    direction = udlr[ rand() / ( ( RAND_MAX + 1u ) / 4 ) ];
 
-   printf( "direction %c\n", direction );
-
    y = 300;
    x = 400;
 
@@ -66,7 +64,7 @@ int main( int argc, char* argv[] )
          switch( direction )
          {
          case 'u':
-            direction = udlr[ 3 + rand() / ( ( RAND_MAX + 1u ) / 2 ) ];
+            direction = udlr[ 2 + rand() / ( ( RAND_MAX + 1u ) / 2 ) ];
             break;
 
          case 'l':
@@ -74,7 +72,7 @@ int main( int argc, char* argv[] )
             break;
 
          case 'd':
-            direction = udlr[ 3 + rand() / ( ( RAND_MAX + 1u ) / 2 ) ];
+            direction = udlr[ 2 + rand() / ( ( RAND_MAX + 1u ) / 2 ) ];
             break;
 
          case 'r':
