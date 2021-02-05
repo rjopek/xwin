@@ -32,6 +32,7 @@ title: Functions
 > * [ ] [MousePosX()](functions/mouseposx.html)
 > * [ ] [MousePosY()](functions/mouseposy.html)
 > * [ ] [PutPixel()](functions/putpixel.html)
+> * [ ] [RandomInt()](functions/randomint.html)
 > * [ ] [Rect()](functions/rect.html)
 > * [ ] [ReleaseCPU()](functions/releasecpu.html)
 > * [ ] [ScreenHeight()](functions/screenheight.html)

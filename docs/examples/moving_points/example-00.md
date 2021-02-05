@@ -31,8 +31,6 @@ int main( int argc, char* argv[] )
 
    XWinOpen( 800, 600, "Moving points - example-00.c" );
 
-   srand( time( NULL ) );
-
    direction = udlr[ RandomInt( 0, 3 ) ];
 
    y = 300;
