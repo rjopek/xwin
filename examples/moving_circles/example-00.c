@@ -35,7 +35,7 @@ int main( int argc, char* argv[] )
 
    circle[ 2 ] =  1;
    circle[ 3 ] = -1;
-   circle[ 4 ] =  1 + rand() / ( ( RAND_MAX + 1u ) / 0xffffff );
+   circle[ 4 ] = RandomInt( 0x0, 0xffffff );
 
    while( condition )
    {
@@ -52,25 +52,25 @@ int main( int argc, char* argv[] )
       if( circle[ 0 ] < radius * 2 )
       {
          circle[ 2 ] = - circle[ 2 ];
-         circle[ 4 ] = 1 + rand() / ( ( RAND_MAX + 1u ) / 0xffffff );
+         circle[ 4 ] = RandomInt( 0x0, 0xffffff );
       }
 
       if( circle[ 1 ] < radius * 2 )
       {
          circle[ 3 ] = - circle[ 3 ];
-         circle[ 4 ] = 1 + rand() / ( ( RAND_MAX + 1u ) / 0xffffff );
+         circle[ 4 ] = RandomInt( 0x0, 0xffffff );
       }
 
       if( circle[ 0 ] > height - radius * 2 )
       {
          circle[ 2 ] = - circle[ 2 ];
-         circle[ 4 ] = 1 + rand() / ( ( RAND_MAX + 1u ) / 0xffffff );
+         circle[ 4 ] = RandomInt( 0x0, 0xffffff );
       }
 
       if( circle[ 1 ] > width - radius * 2 )
       {
          circle[ 3 ] = - circle[ 3 ];
-         circle[ 4 ] = 1 + rand() / ( ( RAND_MAX + 1u ) / 0xffffff );
+         circle[ 4 ] = RandomInt( 0x0, 0xffffff );
       }
 
       circle[ 0 ] += circle[ 2 ];

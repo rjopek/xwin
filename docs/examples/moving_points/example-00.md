@@ -91,7 +91,7 @@ int main( int argc, char* argv[] )
 
       if( y < 0 || y > height || x < 0 || x > width )
       {
-         color = rand() / ( ( RAND_MAX + 1u ) / 0xffffff );
+         color = RandomInt( 0x0, 0xffffff );
       }
    }
 
