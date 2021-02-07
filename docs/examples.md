@@ -5,9 +5,13 @@ title: Examples
 
 # Examples
 
+### Epicycloid and hypocycloid
+> * [~~example-00.c~~](examples/epicycloid_hypocycloid/example-00.html)
+
 ### Moving circles
 
 > * [example-00.c](examples/moving_circles/example-00.html)
+> * [example-01.c](examples/moving_circles/example-01.html)
 
 ### Moving points
 
