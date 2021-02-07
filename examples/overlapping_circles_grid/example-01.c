@@ -3,11 +3,11 @@
  *
  * Copyright 2020-2021 Rafał Jopek ( rafaljopek at hotmail com )
  *
- * gcc example-01.c xwin.c -o example-01 -lX11
+ * cc example-01.c ../../src/xwin.c -o example-01 -lX11 -lm
  *
  */
 
-#include "xwin.h"
+#include "../../src/xwin.h"
 
 int main( int argc, char* argv[] )
 {
@@ -50,7 +50,7 @@ int main( int argc, char* argv[] )
             {
                top  = cos( M_PI + ( 2 * i + j ) * 2 * M_PI / ( n * 2 ) ) * radius * 2 + height / 2;
                left = sin(        ( 2 * i + j ) * 2 * M_PI / ( n * 2 ) ) * radius * 2 + width / 2;
-               
+
                Line( top, left, height / 2, width / 2, 0x990000 );
             }
             Circle( y, x, radius, 0x000099 );

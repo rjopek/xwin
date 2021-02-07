@@ -3,12 +3,11 @@
  *
  * Copyright 2020-2021 Rafał Jopek ( rafaljopek at hotmail com )
  *
- * gcc example-03.c xwin.c -o example-03 -lX11
- * ./example-03
+ * cc example-03.c ../../src/xwin.c -o example-03 -lX11 -lm
  *
  */
 
-#include "xwin.h"
+#include "../../src/xwin.h"
 
 int main( int argc, char* argv[] )
 {
