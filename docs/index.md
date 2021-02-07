@@ -13,11 +13,11 @@ title: Home
 
 {% highlight c linenos %}
 /*
- * gcc example-00.c xwin.c -o example-00 -lX11
+ * cc example-00.c ../../src/xwin.c -o example-00 -lX11 -lm
  *
  */
 
-#include "xwin.h"
+#include "../../src/xwin.h"
 
 int main( int argc, char* argv[] )
 {
