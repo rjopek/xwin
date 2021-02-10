@@ -93,3 +93,5 @@ int main( int argc, char* argv[] )
 {% endhighlight %}
 
 ![XWin](../../assets/img/generating_fractals/example-00.png)
+
+---
