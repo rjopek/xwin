@@ -17,7 +17,6 @@ int main( int argc, char* argv[] )
    int key;
    int y, x, color;
    unsigned int i;
-   unsigned int x1, y1;
 
    XWinInit( argc, argv );
 
@@ -30,33 +29,31 @@ int main( int argc, char* argv[] )
          height = WindowHeight();
          width = WindowWidth();
 
-         y1 = 0;
-         x1 = width;
+         y = 0;
+         x = width;
 
-         for( i = 0; i < 1000000; i++ )
+         for( i = 0; i < height * width / 2; i++ )
          {
             switch( RandomInt( 0, 2 ) )
             {
             case 0:
-               y = ( y1 + 0 ) / 2;
-               x = ( x1 + width / 2 ) / 2;
+               y = ( y + 0 ) / 2;
+               x = ( x + width / 2 ) / 2;
                color = 0x0f785b;
                break;
             case 1:
-               y = ( y1 + height ) / 2;
-               x = ( x1 + 0 ) / 2;
+               y = ( y + height ) / 2;
+               x = ( x + 0 ) / 2;
                color = 0xffcc00;
                break;
             case 2:
-               y = ( y1 + height ) / 2;
-               x = ( x1 + width ) / 2;
+               y = ( y + height ) / 2;
+               x = ( x + width ) / 2;
                color = 0x8a8a8a;
                break;
             }
 
             PutPixel( y, x, color );
-            y1 = y;
-            x1 = x;
          }
       }
 
