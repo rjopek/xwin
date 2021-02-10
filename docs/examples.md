@@ -11,7 +11,7 @@ title: Examples
 
 ### Gnerating fractals
 
-   > * [example-00.c](examples/gnerating_fractals/example-00.html)
+   > * [example-00.c](examples/generating_fractals/example-00.html)
 
 ### Moving circles
 
