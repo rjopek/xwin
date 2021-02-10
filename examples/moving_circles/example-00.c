@@ -31,8 +31,6 @@ int main( int argc, char* argv[] )
 
    XWinOpen( 800, 600, "Moving circles - example-00.c" );
 
-   srand( time( NULL ) );
-
    circle[ 2 ] =  1;
    circle[ 3 ] = -1;
    circle[ 4 ] = RandomInt( 0x0, 0xffffff );
