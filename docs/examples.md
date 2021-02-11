@@ -7,11 +7,12 @@ title: Examples
 
 ### Epicycloid and hypocycloid
 
-   > * [~~example-00.c~~](examples/epicycloid_hypocycloid/example-00.html)
+> * [~~example-00.c~~](examples/epicycloid_hypocycloid/example-00.html)
 
 ### Gnerating fractals
 
-   > * [example-00.c](examples/generating_fractals/example-00.html)
+> * [example-00.c](examples/generating_fractals/example-00.html)
+> * [example-01.c](examples/generating_fractals/example-01.html)
 
 ### Moving circles
 
