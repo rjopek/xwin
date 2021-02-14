@@ -13,6 +13,7 @@ title: Examples
 
 > * [example-00.c](examples/generating_fractals/example-00.html)
 > * [example-01.c](examples/generating_fractals/example-01.html)
+> * [example-02.c](examples/generating_fractals/example-02.html)
 
 ### Moving circles
 
