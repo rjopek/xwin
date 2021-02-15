@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Examples
+author: Rafał Jopek
 ---
 
 # Examples
