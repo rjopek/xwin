@@ -6,10 +6,6 @@ author: Rafał Jopek
 
 # Examples
 
-### Epicycloid and hypocycloid
-
-> * [~~example-00.c~~](examples/epicycloid_hypocycloid/example-00.html)
-
 ### Gnerating fractals
 
 > * [example-00.c](examples/generating_fractals/example-00.html)
@@ -35,3 +31,6 @@ author: Rafał Jopek
 > * [~~example-04.c~~](examples/overlapping_circles_grid/example-04.html)
 > * [~~example-05.c~~](examples/overlapping_circles_grid/example-05.html)
 
+### Rozdział szusty
+
+> * [example-00.c](examples/rozdzial_szosty/example-00.html)
