@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Getting Started
-author: Rafał Jopek
 ---
 
 # Getting Started

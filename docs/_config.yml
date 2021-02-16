@@ -1,6 +1,7 @@
 # Site settings
 
 title: XWin
+author: Rafał Jopek
 description:
 baseurl: /xwin
 url: https://harbour.pl/xwin

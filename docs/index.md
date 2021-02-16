@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Home
-author: Rafał Jopek
 ---
 
 # XWin

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Functions
-author: Rafał Jopek
 ---
 
 # Functions
