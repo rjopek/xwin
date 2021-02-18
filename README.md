@@ -23,3 +23,5 @@ Functions Reference Manual.
 ### License
 
 [License MIT](docs/LICENSE.md)
+
+### This repository is waiting for a new owner, it will be given to the person who will further develop the project.
