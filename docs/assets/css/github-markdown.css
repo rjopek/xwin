@@ -775,13 +775,12 @@
 .markdown-body table td,
 .markdown-body table th {
   padding: 6px 6px;
-  border: 1px solid 	#0f785b;  /* */
+  border: 1px solid #0f785b; /* */
 }
 
 .markdown-body table tr {
   background-color: #464646; /* */
   /* border-top: 1px solid #c6cbd1; */
-
 }
 
 .markdown-body table tr:nth-child(2n) {
@@ -792,7 +791,7 @@
   max-width: 100%;
   box-sizing: initial;
   background-color: #fff9e5;
-  padding: 10px;   /* dodano */
+  padding: 10px; /* dodano */
 }
 
 .markdown-body img[align="right"] {
@@ -841,7 +840,7 @@
   font-size: 85%;
   line-height: 1.45;
   background-color: #323232; /* zmieniono background-color: #f6f8fa; */
-  color: #0f785b;            /* dodano */
+  color: #0f785b; /* dodano */
   border-radius: 7px;
 }
 
